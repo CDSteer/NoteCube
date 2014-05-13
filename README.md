@@ -9,11 +9,8 @@ NoteCube will give you power over your notifications, it will make notifications
 
 The current version will check if its raining in your city.
 
-## Requirements
-
-[Spyrk](https://github.com/Alidron/spyrk)
-
 ## Installation
 
-Just clone this git repository and use the file in there.
+You will need [Spyrk](https://github.com/Alidron/spyrk), just clone their repository and use the file in there.
+
 Also, you will need [Hammock](https://pypi.python.org/pypi/hammock/0.2.3). Simply do `pip install hammock`.
