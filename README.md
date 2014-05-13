@@ -9,7 +9,7 @@ NoteCube will give you power over your notifications, it will make notifications
 
 The current version will check if its raining in your city.
 
-## Requiments
+## Requirements
 
 [Spyrk](https://github.com/Alidron/spyrk)
 
