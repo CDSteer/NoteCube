@@ -8,7 +8,7 @@ PROTO="https://"
 SERVER="mail.google.com"
 PATH="/gmail/feed/atom"
 
-ACCESS_TOKEN = 'YOUR-ACCESS_TOKEN'
+ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
 
 spark = SparkCloud(ACCESS_TOKEN)
 
