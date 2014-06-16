@@ -5,9 +5,7 @@ NoteLight::NoteLight(){
     green = 0;
     blue = 0;
 }
-NoteLight::~NoteLight(){
-
-}
+NoteLight::~NoteLight(){}
 
 void NoteLight::setRed(int red) {
     this->red = red;

@@ -7,6 +7,7 @@ class Settings{
     bool solid;
     bool flashing;
     bool breathing;
+    int flashTime;
   public:
     Settings();
     ~Settings();
@@ -14,6 +15,8 @@ class Settings{
     bool isFlashing();
     bool isBreathing();
     int setMode(int);
+    void setFlash(int);
+    int getFlash();
 };
 
 #endif // !SETTINGS_H

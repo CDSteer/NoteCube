@@ -4,6 +4,7 @@ Settings::Settings(){
     solid = true;
     flashing = false;
     breathing = false;
+    flashTime = 800;
 }
 Settings::~Settings(){}
 
@@ -33,4 +34,11 @@ int Settings::setMode(int args){
         breathing = true;
     }
     return 0;
+}
+
+void Settings::setFlash(int flashTime){
+    this->flashTime = flashTime;
+}
+int Settings::getFlash(){
+    return this->flashTime;
 }

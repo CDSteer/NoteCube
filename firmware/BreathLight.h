@@ -8,10 +8,6 @@ class BreathLight: public NoteLight{
   public:
     BreathLight();
     ~BreathLight();
-    int breathGreen();
-    int breathRed();
-    int breathBlue();
-    void delay(unsigned long delay);
 };
 
 #endif // !BREATHLIGHT_H
